@@ -2,8 +2,6 @@ name: Get new udemy courses every 6 hours
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '0 */12 * * *' # every 12 hours
 
 env:
   # Setting an environment variable with the value of a configuration variable
